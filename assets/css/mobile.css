@@ -1,0 +1,6 @@
+@media (max-width: 350) {
+  img.tam-img{
+    width: 100%;
+    height: auto;
+}
+}

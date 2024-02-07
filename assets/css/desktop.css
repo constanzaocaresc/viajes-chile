@@ -1,0 +1,23 @@
+img.tam-img{
+    width: 100%;
+    height: 750px;
+}
+main{
+    background-color: black;
+    color: white;
+}
+.icon-content{
+    background-color:#0dcaf0;
+}
+.card{
+    width: 300px;
+}
+.card-body{
+    background-color:#0dcaf0 ;
+}
+div#formulario-contacto{
+    background-color: black;
+}
+#pie-pag{
+    background-color:#0dcaf0 ;
+}
