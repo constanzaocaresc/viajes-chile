@@ -1,6 +1,15 @@
-@media (max-width: 350) {
-  img.tam-img{
-    width: 100%;
-    height: auto;
-}
+/*Se aplican los cambios si es igual o menor a 1250px*/
+@media (max-width: 850px) {
+  img#logo{
+    width: 30px;
+    margin:0;
+  }
+  nav.navbar.navbar-expand-lg{
+    margin: .5em 0 ;
+    padding: 0;
+  }
+/*seccion de descripcion*/
+  div#texto-dos{
+  }
+
 }
