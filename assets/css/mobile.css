@@ -9,7 +9,16 @@
     padding: 0;
   }
 /*seccion de descripcion*/
-  div#texto-dos{
+  div#text-content.container-fluid{
+    display: flex;
+    flex-direction: column !important;
   }
-
+  div#card-contenido{
+    display: flex;
+    flex-direction: column !important;
+    }
+  img.card-img-top{
+    height: 170px;
+    width: 260px;
+  }
 }

@@ -69,9 +69,12 @@ div#text-content.container-fluid{
 }
 .titulo-h2{
     text-transform: uppercase;
-    padding: 1em 0;
+    padding: 2em 0 1em 0;
     text-align: center;
     font-weight: 300;
+    background-color: black;
+    margin: 0;
+    color: white;
 }
 .texto-contenido{
     display: flex;
@@ -81,9 +84,35 @@ div#text-content.container-fluid{
     flex-wrap: wrap;
 }
 
-
-
 div#texto-dos{
 
     flex-wrap: wrap-reverse;
 }
+section#destacados{
+    display: flex;
+    flex-direction: column;
+}
+div#card-contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin: .5em;
+    color: white;
+}
+img.card-img-top{
+    height: 170px;
+    width: 298px;
+  }
+  h4.card-title
+  {
+    color: white;
+  }
+  p.card-text{
+    color: white;
+  }
+  div#formulario-contacto{
+    padding: 0 8em;
+  }
