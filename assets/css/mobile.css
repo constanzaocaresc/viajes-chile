@@ -21,4 +21,25 @@
     height: 170px;
     width: 260px;
   }
+  
+
+  /*foooter*/
+  form{
+    margin: 0;
+    padding: 0;
+  }
+  div#formulario-contacto.container-fluid{
+    margin: 0;
+    padding: 0 1em;
+  }
+
+  div#pie-pag.container-fluid{
+    display: flex;
+    flex-direction: column;
+
+  }
+  p#footer-text{
+    margin-bottom: 1em;
+  }
+
 }

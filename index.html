@@ -139,22 +139,24 @@
     
     <footer>
       <!--FORMULARIO DE CONTACTO-->
-      <h2 class="titulo-h2">contacto</h2>
-      <div id="formulario-contacto">
-        <div class="mb-3">
-          <label for="nombre" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre aqui">
-        </div>
-        <div class="mb-3">
-          <label for="asunto" class="form-label">Asunto</label>
-          <input type="text" class="form-control" id="asunto" placeholder="Ingresar asunto">
-        </div>
-        <div class="mb-3">
-          <label for="textarea1" class="form-label">Mensaje</label>
-          <textarea class="form-control" id="textarea1" rows="3"></textarea>
-        </div>
-        <input type="submit" class="btn btn-info text-white mb-5" value="Enviar">
-      </div>
+      <div id="formulario-contacto" class="container-fluid">
+        <h2 class="titulo-h2">contacto</h2>
+        <form>
+            <div class="mb-3 mt-3">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" name="nombre">
+            </div>
+            <div class="mb-3">
+              <label for="email">Correo electronico</label>
+              <input type="email" class="form-control" id="email" placeholder="Ingresa tu asunto" name="email">
+            </div>
+            <div>
+              <label for="text-mensaje">Mensaje</label>
+              <textarea class="form-control mb-3" name="mensaje" id="text-mensaje"rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-info mb-3">Enviar</button>
+        </form>
+    </div>
       <!--PIE DE PAGINA-->
       <div id="pie-pag" class="container-fluid">
         <p id="footer-text">viajes chile</p>
