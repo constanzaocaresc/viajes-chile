@@ -24,19 +24,19 @@
         <div>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link" aria-current="page" href="#section-home">Inicio</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Quienes Somos</a>
+                <a class="nav-link" aria-current="page" href="#descripcion">Quienes Somos</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Destacados</a>
+                <a class="nav-link" aria-current="page" href="#destacados">Destacados</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Contacto</a>
+                <a class="nav-link" aria-current="page" href="#formulario-contacto">Contacto</a>
               </li>
             </ul>
         </div>
@@ -44,7 +44,7 @@
     </div>
   </nav>
   <!--inicio del header-->
-    <header>
+    <header id="section-home">
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -104,7 +104,7 @@
               <div class="card">
                 <img class="card-img-top" src="assets/img/card1.jpg" alt="Card image">
                 <div class="card-body">
-                  <h4 class="card-title">John Doe</h4>
+                <h4 class="card-title" >John Doe</h4>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At excepturi id harum commodi porro atque facere consequuntur.</p>
                 </div>
               </div>
@@ -154,24 +154,27 @@
               <label for="text-mensaje">Mensaje</label>
               <textarea class="form-control mb-3" name="mensaje" id="text-mensaje"rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-info mb-3">Enviar</button>
+            <button id="btn-enviar" type="button" class="btn btn-info mb-3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Clic para enviar mensaje.">
+              Enviar
+            </button>
         </form>
     </div>
       <!--PIE DE PAGINA-->
       <div id="pie-pag" class="container-fluid">
         <p id="footer-text">viajes chile</p>
         <div>
-          <i class="fa-brands fa-github fa-lg"></i>
-          <i class="fa-brands fa-linkedin fa-lg"></i>
-          <i class="fa-brands fa-square-x-twitter fa-lg"></i>
-          <i class="fa-brands fa-square-facebook fa-lg"></i>
+          <i class="fa-brands fa-github fa-lg" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Buscanos en Github"></i>
+          <i class="fa-brands fa-linkedin fa-lg"data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Buscanos en LinkedIn"></i>
+          <i class="fa-brands fa-square-x-twitter fa-lg" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Buscanos en X (twitter)"></i>
+          <i class="fa-brands fa-square-facebook fa-lg" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Buscanos en Facebook"></i>
         </div>
       </div>
     </footer>
+    
     <script src="https://kit.fontawesome.com/d665f037d9.js" crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
     <script src="assets/js/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-</body>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
